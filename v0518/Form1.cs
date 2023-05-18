@@ -1,4 +1,4 @@
-namespace v0518
+Ôªønamespace v0518
 {
     public partial class Form1 : Form
     {
@@ -10,36 +10,27 @@ namespace v0518
         private void button1_Click(object sender, EventArgs e)
         {
             //button1.Left = 0;
-            button1.Left = button1.Left + 10;
-            button1.Top = button1.Top + 10;
-            button1.Text = "çsèH";
-            button1.BackColor = Color.LightSkyBlue;
-
+            label1.Top = label1.Top - 10;
+            label1.Text = "(^-^)";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            button2.Left = button2.Left - 10;
-            button2.Top = button2.Top - 10;
-            button2.Text = "ÉiÉqÅ[É_";
-            button2.BackColor = Color.LightSeaGreen;
-            
+            label1.Left = label1.Left - 10;
+            label1.Text = "(¬∞œâ ¬∞)";
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            button3.Left = button3.Left - 10;
-            button3.Top = button3.Top + 10;
-            button3.Text = "ã„ãSîE";
-            button3.BackColor = Color.MediumPurple;
+            label1.Left = label1.Left + 10;
+            label1.Text = "(ÔºûÔΩûÔºú)";
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            button4.Left = button4.Left + 10;
-            button4.Top = button4.Top - 10;
-            button4.Text = "ó∑êl";
-            button4.BackColor = Color.LightYellow;
+            label1.Top = label1.Top + 10;
+            label1.Text = "(T__T)";
         }
 
         private void label1_Click(object sender, EventArgs e)
